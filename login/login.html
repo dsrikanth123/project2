@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            text-align: center;
+            margin-top: 30px;
+            color: brown;
+        }
+        #login{
+            display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            align-items: center;
+            gap: 15px;
+            border: none;
+        }
+        .login{
+            border: 2px solid whitesmoke;
+            background-color: whitesmoke;
+            display:inline-block;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        input{
+            border-radius: 10px;
+            padding: 10px 40px;
+        }
+        button{
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+         <h1>welcome to login page</h1>
+        <form action="" method="post" id="login">
+            <input type="email"  id="email" placeholder="Enter the email">
+            <input type="password"  id="password" placeholder="Enter the password">
+            <button>login</button>
+        </form>
+    </div>
+     <p>Do you have account?<a href="signup.html">Register Now</a></p>
+    <script src="login.js"></script>
+</body>
+</html>

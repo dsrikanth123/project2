@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Joke/Quote Generator</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 100px;
+
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      gap: 10px;
+    }
+    p{
+      border:none;
+      border-radius: 5px;
+      background-color:black;
+      color:yellow;
+    }
+    button{
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: blue;
+      border-radius: 10px;
+    }
+    p{
+      font-size: 18px;
+    }
+    input{
+      background-color:cyan;
+      border: none;
+      padding: 5px;
+      
+    }
+    .title{
+      border: 2px solid whitesmoke;
+      background-color:pink;
+      border-radius: 10px;
+      display:inline-block;
+      padding: 5px;
+    }
+    
+  </style>
+</head>
+<body>
+     <div class="title">
+      <h1>Random Joke/Quote Generator/</h1>
+      <h1>Color Change</h1>
+     </div><br><br><br><br>
+    <input type="text" id="color" placeholder="Enter color here">
+    <div class="container">
+      <div class="joke">
+        <p class="jokes"></p>
+      </div>
+      <div class="quote">
+      <p class="quotes"></p>
+     </div>
+    </div>
+    <button onclick="generateJoke()">Get a Joke</button>
+    <button onclick="generateQuote()">Get a Quote</button>
+  <script src="project.js"></script>
+</body>
+</html>
