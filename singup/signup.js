@@ -61,7 +61,7 @@ signup.addEventListener("submit", (e) => {
         let deatils = { Name: name, Email: email, pswd: password }
         alert("signup successful....")
         localStorage.setItem("details", JSON.stringify(deatils))
-        window.location.href = "login.html"
+        window.location.href = "../login/login.html"
     }
 })
 

@@ -12,7 +12,7 @@ login.addEventListener("submit",(e) => {
     let dbPswd=data2.pswd;
     
      if(a === dbName && b ===dbPswd){
-      window.location.href="project.html"
+      window.location.href="../project/project.html"
        alert("login successful....")
     }else{
     alert("enter correct credentials")
