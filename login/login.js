@@ -1,4 +1,5 @@
 let login = document.getElementById("login");
+let guestLogin =document.getElementById("guestLogin");
 
 login.addEventListener("submit",(e) => {
   e.preventDefault()
@@ -19,4 +20,8 @@ login.addEventListener("submit",(e) => {
     }
 
 })
+guestLogin.addEventListener("click",()=>{
+  alert("logged in as Guest!")
+  window.location.href="../project/project.html"
+});
 
